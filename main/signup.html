@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+	<title>SignUp</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+
+	<style>
+
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		body{
+			font-family: Tahoma, Geneva, sans-serif;
+			color: #fff;
+			background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/mb.jpg");
+			background-size: cover;
+		}
+
+		.signin{
+			background: rgba(44,62,80,0.7);
+			padding: 40px;
+			width: 250px;
+			margin: auto;
+			margin-top: 120px;
+			height: 400px;
+			margin-left: 180x;
+		}
+
+		form{
+			width: 240px;
+			text-align: center;
+		}
+
+		input
+		{
+			width: 240px;
+			text-align: center;
+			background: transparent;
+			border: none;
+			border-bottom: 1px solid #fff;
+			font-family: 'Play', sans-serif;
+			font-size: 16px;
+			font-weight: 200px;
+			padding: 10px 0;
+			transition: border 0.5s;
+			outline: none;
+			color: #fff;
+		}
+		input[type=button]
+		{
+			border: none;
+			width: 190px;
+			background: #fff;
+			color: #000;
+			font-size: 16px;
+			line-height: 25px;
+			padding: 10px 0;
+			border-radius: 15px;
+			cursor: pointer;
+		}
+
+		input[type=button]:hover
+		{
+			color: #fff;
+			background-color: #bf55ec;
+		}
+
+		h2{
+			color: white;
+		}
+
+		a{
+			color: orange;
+			text-decoration: blink;
+		}
+
+		a:hover{
+			color: skyblue;
+		}
+
+		.container{
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+		}
+
+		::placeholder{
+			color: aliceblue;
+			opacity: 0.8;
+		}
+
+
+	</style>
+
+</head>
+
+<body>
+
+
+
+	<div class="signin">
+		<form>
+			<h2 style="color: white">Log In</h2>
+			<input type="text" name="username" placeholder="username">
+			<input type="password" name="pass" placeholder="password"><br><br>
+			<a href="congrat.html"><input type="button" value="Log In"></a><br><br>
+			<div id="container">
+				<a href="reset.html" style="margin-right: 0px; font-size: 13px; font-family: Tahoma, Geneva, sans-serif;">Reset password</a>
+				<a href="forget.html" style="margin-right: 0px; font-size: 13px; font-family: Tahoma, Geneva, sans-serif;">Forgot password</a>
+			</div><br><br><br><br><br><br>
+			Don't have account?<a href="registration.html">&nbsp;Sign Up</a><br><br>
+			<a href="index.html" style="text-decoration: none;">Go to Home Page</a>
+			
+		</form>
+	</div>
+
+</body>
+</html>

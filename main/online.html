@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=divice-width, initial-scale= 1.0">
+	
+	<title>Menu</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<style>
+		*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	}
+
+	body{
+	font-size: 20px;
+	overflow-x: hidden;
+	color: #fff;
+	font-family: 'Flamenco', cursive;
+	text-decoration: none;
+	background: black;
+	}
+
+
+	header{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('images/mb.jpg');
+	background-size: cover;
+	
+	height: 100vh;
+	}
+
+	.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+	}
+
+	.row{
+	max-width: 1180px;
+	margin: 0 auto;
+	}
+
+	.logo{
+	height: 120px;
+	width: auto;
+	margin-top: 20px;
+	margin-right: 20px;
+	
+	}
+
+	.main-nav{
+	float: right;
+	margin-top: 60px;
+
+	}
+
+	.main-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+	}
+
+	.main-nav li a{
+	padding: 5px 0;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	font-weight: 100;
+	}
+
+	.main-nav li a:hover{
+	border-bottom: 2px solid #bf55ec;
+	}
+
+	.main-content-header{
+	width: 1180px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+
+	img{
+		float: top;
+		margin-top: 50px;
+		padding: 20px;
+		height: 220px;
+		width: 350px;
+
+	}
+
+	h1{
+		margin-left: 250px;
+		margin-top: 40px;
+	}
+
+	h3{
+		margin-left: 325px;
+		margin-top: 40px;
+		font-weight: lighter;
+	}
+
+	h4{
+		margin-left: 90px;
+		font-weight: lighter;
+	}
+
+	h5{
+		margin-left: 500px;
+		font-weight: lighter;
+		margin-bottom: : 120px;
+	}
+
+
+	h2{
+		color: white;
+		font-family: freestyle script;
+		font-size: 60px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	input[type=button]{
+			border: none;
+			width: 190px;
+			background: #fff;
+			color: #fff;
+			font-size: 16px;
+			line-height: 25px;
+			padding: 10px 0;
+			border-radius: 15px;
+			cursor: pointer;
+	}
+
+	a{
+		color: #fff;
+		margin-top: 
+	}
+
+
+	
+
+	a:hover{
+		color: #bf55ec;
+		cursor: pointer;
+	}
+
+	
+
+	.mobile-icon{
+	display: none;
+	}
+
+	input[type=button]{
+			border: none;
+			width: 190px;
+			background: #fff;
+			color: black;
+			font-size: 16px;
+			line-height: 25px;
+			padding: 10px 0;
+			border-radius: 15px;
+			cursor: pointer;
+	}
+
+	input[type=button]:hover{
+		background: #bf55ec;
+
+	}
+
+	
+
+	/* Responsive quaries  */
+
+	@media only screen and (max-width: 1180px){
+		.main-content-header{
+			width: 100%;
+			padding: 0 2%;
+		}
+	}
+
+	@media only screen and (max-width: 998px){
+	h1{font-size: 200%;}
+	}
+
+	@media only screen and (max-width: 768px){
+		h1{font-size: 175%;}
+	
+		.main-nav{display: none;}
+
+		.mobile-icon{display: inline-block;
+			color: #fff;
+			float: right;
+			margin-top: 30px;
+			margin-right: 20px;
+		}
+
+		.main-nav{
+		float: left;
+		}
+
+		.main-nav li{
+		
+		display: block;
+		margin-top: 10px;
+		}
+
+	}
+
+	@media only screen and (max-width: 480px){
+		.btn-full{
+			margin-bottom: 20px;
+	}
+
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<div class="head">
+		</div>
+		
+
+		<nav>
+			<div class="row clearfix">
+				<img src="images/logo2.png" class="logo">
+				<ul class="main-nav" id="check-class">
+					<li><a href="index.html">HOME</li>
+					<li><a href="booking.html">BOOKING INFO</li>
+					<li><a href="online.html">ONLINE SHOPPING</li>
+					<li><a href="check.html">SEE MORE</li>
+					<li><a href="signup.html">SIGN UP</li>
+
+					
+				</ul>
+				<a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
+
+
+		<div class="container">
+			<h1>Smartphones makes people more smart</h1>
+			<h3>Old and all latest barnded smartphones</h3>
+		</div>
+
+		<div class="category">
+			<div class="Thai">
+				<img src="images/mb1.jpg">
+
+				
+				
+			
+				<img src="images/mb2.jpg">
+
+
+				<img src="images/mb3.jpg">
+				
+				
+			</div>
+
+			
+		</nav>
+		<h2>We are also available on <div><a href="https://tamrakar.com"><input type="button" value="tamrakar house"></a></div></h2>
+
+	</header>
+
+
+
+	
+
+	<script type="text/javascript">
+		function slideshow(){
+			var x = document.getElementById('check-class');
+			if (x.style.display === "none"){
+				x.style.display="block";
+			}else{
+				x.style.display="none";
+			}
+		}
+	</script>
+
+</body>
+</html>
